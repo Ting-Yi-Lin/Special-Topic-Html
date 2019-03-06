@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            text-align: center;
+            width: 30%;
+        }
+        td ,th {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+  <address><a href="mailto:m28095630@gmail.com">寄信</a></address>
+  <address><a href="mailto:m28095630@gmail.com?subject=蛋蛋蛋">信件標題</a></address>
+  <address><a href="mailto:m28095630@gmail.com?cc=seanngod@gmail.com">副本收件者地址</a></address>
+  <address><a href="mailto:m28095630@gmail.com?bcc=seangod#gmail.com">密件副本收件者地址</a></address>
+  <address><a href="mailto:m28095630@gmail.com?body=育誠好帥">郵件內容</a></address>
+  <address><a href="mailto:m28095630@gmail.com?subject=誠誠吃大便&cc=seanngod@gmail.com&bcc=seangod#gmail.com&body=育誠好帥">全部連在一起</a></address>
+  <ul>
+      <h1>MR.Egg</h1>
+      <li>Hello World</li>
+      <li>World Hello</li>
+  </ul>
+  <ol>
+      <h1>Egg.JR</h1>
+      <li>Hello world</li>
+      <li>World Hello</li>
+  </ol>
+  <ol type = "I">
+      <h1>Ms.Egg</h1>
+      <li>Hello world</li>
+      <li>World Hello</li>
+  </ol>
+  <dl>
+      <dt>Hello</dt>
+      <dd>World</dd>
+  </dl>
+  <caption>基本資料</caption>
+  <table>
+      <colgroup>
+          <!--群組化-->
+          <col style="background-color:lightblue">
+          <col style="background-color:chocolate">
+      </colgroup>
+      <thead><tr><th>學號</th><th>姓名</th><th>座號</th></tr></thead>
+      <tbody><tr><td>A</td><td></td><td></td></tr></tbody>
+      <tbody><tr><td>D</td><td></td><td></td></tr></tbody>
+      <tfoot><tr><td>2019</td><td>3</td><td>6</td></tr></tfoot>
+  </table>
+  <img src="http://ws2.sinaimg.cn/bmiddle/9150e4e5ly1fd5fao9eixg206o06o75u.gif"alt="找不到">
+</body>
+</html>
