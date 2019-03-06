@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page2</title>
+    <style>
+        header{
+            text-align: center;
+            font-size:40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>head</h1>
+    </header>
+    <nav>
+        <a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2">W3Practice</a>
+    </nav>
+    <aside>
+        <h3>aside</h3>
+    </aside>
+    <article>
+        <h3>article</h3>
+    </article>
+    <section>
+        <h3>section</h3>
+    </section>
+    <footer>
+        <h3>foot</h3>
+    </footer>
+</body>
+</html>
