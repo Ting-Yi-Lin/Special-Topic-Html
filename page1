@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page1</title>
+</head>
+<body>
+    <form action="Page2.html"method="get">
+        Enter your name:<input type="text"><br>
+        <input type="submit"value="Go">
+    </form>
+
+</body>
+</html>
