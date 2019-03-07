@@ -8,11 +8,17 @@
             text-align: center;
             font-size:40px;
         }
+        
+        aside{
+        	text-align: right;
+			font-size:20px
+        }
+        
     </style>
 </head>
 <body>
-    <header>
-        <h1>head</h1>
+    <header style="background-color:powderblue;">
+        <h1>林庭頤</h1>
     </header>
     <nav>
         <a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2">W3Practice</a>
