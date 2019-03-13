@@ -8,32 +8,34 @@
             text-align: center;
             font-size:40px;
         }
-        
+
         aside{
-        	text-align: right;
-			font-size:20px
+            text-align: right;
+            width: 20%;
+            height: 25%;
+            font-size:20px
         }
-        
+
     </style>
 </head>
 <body>
-    <header style="background-color:powderblue;">
-        <h1>林庭頤</h1>
-    </header>
-    <nav>
-        <a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2">W3Practice</a>
-    </nav>
-    <aside>
-        <h3>aside</h3>
-    </aside>
-    <article>
-        <h3>article</h3>
-    </article>
-    <section>
-        <h3>section</h3>
-    </section>
-    <footer>
-        <h3>foot</h3>
-    </footer>
+<header style="background-color:powderblue;">
+    <h1>林庭頤</h1>
+</header>
+<nav>
+    <a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2">W3Practice</a>
+</nav>
+<aside>
+    <h3>aside</h3>
+</aside>
+<article>
+    <h3>article</h3>
+</article>
+<section>
+    <h3>section</h3>
+</section>
+<footer>
+    <h3>foot</h3>
+</footer>
 </body>
 </html>
