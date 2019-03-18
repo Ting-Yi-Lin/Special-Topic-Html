@@ -1,41 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Page2</title>
-    <style>
-        header{
-            text-align: center;
-            font-size:40px;
-        }
+	<head>
+		<meta charset="UTF-8">
+		<title>Page2</title>
+		<style>
+			*{
+				box-sizing:border-box;
+			}
 
-        aside{
-            text-align: right;
-            width: 20%;
-            height: 25%;
-            font-size:20px
-        }
+			header{
+				text-align: center;
+				font-size:40px;
+			}
+			nav{
+				text-align: center;
+			}
+			article{
+				
+			}
+			.column{
+				text-align:center;
+				float:left;
+				width: 33.33%;
+				padding:10px;
+			}
+			.row:after{
+				content:"";
+				display:table;
+				clear:both;
+			}
+			aside{
+				text-align: center;
+				font-size:20px;
+			}
+			section{
+				padding: 10px 100px;
+			}
+			footer{
+				text-align: center;
+			}
+			@media screen and (max-width:600px) {
+				.column {
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
 
-    </style>
-</head>
-<body>
-<header style="background-color:powderblue;">
-    <h1>林庭頤</h1>
-</header>
-<nav>
-    <a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2">W3Practice</a>
-</nav>
-<aside>
-    <h3>aside</h3>
-</aside>
-<article>
-    <h3>article</h3>
-</article>
-<section>
-    <h3>section</h3>
-</section>
-<footer>
-    <h3>foot</h3>
-</footer>
-</body>
+
+
+	<body bgcolor=navajowhite>
+		<header style>
+			<h3>林庭頤的個人網頁</h3>
+		</header>
+
+		<nav>
+			<h4>課堂練習</h4>
+			<a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/W1.html" target="_blank">W1homework</a>
+			<a href="https://github.com/Ting-Yi-Lin/Special-Topic-Html/blob/master/Lab2" target="_blank">W3Practice</a>
+			<h4>作品</h4>
+			<a href="https://github.com/Ting-Yi-Lin/My-Work/blob/master/%E9%BB%91%E7%99%BD%E6%A3%8B" target="_blank">黑白棋</a>
+		</nav>
+
+		<aside>
+			<img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.15752-0/p280x280/54729776_835866706745989_6843587695306866688_n.jpg?_nc_cat=106&_nc_ht=scontent.ftpe8-3.fna&oh=34263327480e04b833c59a0f26c9ce9d&oe=5D19B19A">
+		</aside>
+
+		<section>
+			<article>
+			   <div class=row>
+				<div class="column">
+					<h3>課表</h3>
+					<table>
+						<thead> <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th></tr> </thead>
+						<tbody> <tr><td></td><td></td><td></td><td>計組</td><td></td></tr> </tbody>
+						<tbody> <tr><td>機率</td><td>機率</td><td>專題</td><td>計組</td><td></td></tr> </tbody>
+						<tbody> <tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>開</td></tr> </tbody>
+						<tbody> <tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>心</td></tr> </tbody>
+						<tbody> <tr><td>EXCEL</td><td>財管</td><td></td><td>PYTHON</td><td>放</td></tr> </tbody>
+						<tbody> <tr><td>EXCEL</td><td>財管</td><td>APP</td><td>PYTHON</td><td>假</td></tr ></tbody>
+						<tbody>	<tr><td></td><td>不動產</td><td>APP</td><td>APP</td><td></td></tr> </tbody>
+						<tbody> <tr><td>體育</td><td>不動產</td><td>線代</td><td>APP</td><td></td></tr></tbody>
+						<tbody> <tr><td>體育</td><td></td><td>線代</td><td></td><td></td></tr></tbody>
+						<tfoot> <tr><td>七堂</td><td>七堂</td><td>七堂</td><td>八堂</td><td>零堂</td></tr></tfoot>
+					</table>
+				</div>
+				<div class="column">
+					<h3>自介</h3>
+					<p>慢熟，熟的人可以從天聊到地，不熟則是會尷尬癌發作</p>
+					<p>高中曾參加吉他社當教學</p>
+					<p>興趣是彈吉他跟玩傳說對決</p>
+					<p>就讀資工系</p>
+					<p></p>
+				</div>
+				<div class="column">
+					<h3>學歷</h3>
+					<ul>
+						<h4>畢業於</h4>
+						<li>薇閣國中</li>
+						<li>中正高中</li>
+						<h4>現就讀</h4>
+						<li>淡江大學</li>
+					</ul>
+				</div>
+				</div>
+			</article>
+		</section>
+
+		<footer>
+			<h3>聯絡方式</h3>
+			<address><a href="mailto:m28095630@gmail.com">Email</a></address>
+			<h4>電話:0975-689-XXX</h4>
+			<a href="https://www.facebook.com/profile.php?id=100005634887688&ref=bookmarks" target="_blank">FB:林庭頤</a>
+		</footer>
+
+	</body>
 </html>
