@@ -16,7 +16,7 @@
 				text-align: center;
 			}
 			article{
-				
+				padding: 100px;
 			}
 			.column{
 				text-align:center;
