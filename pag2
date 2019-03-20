@@ -15,15 +15,22 @@
 			nav{
 				text-align: center;
 			}
-			article{
-				padding: 100px;
-			}
+			
 			.column{
 				text-align:center;
 				float:left;
 				width: 33.33%;
 				padding:10px;
 			}
+            
+            table {
+                margin: auto;
+            }
+            ul {
+                margin: auto;
+                text-align: center;
+            }
+
 			.row:after{
 				content:"";
 				display:table;
@@ -69,22 +76,7 @@
 		<section>
 			<article>
 			   <div class=row>
-				<div class="column">
-					<h3>課表</h3>
-					<table>
-						<thead> <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th></tr> </thead>
-						<tbody> <tr><td></td><td></td><td></td><td>計組</td><td></td></tr> </tbody>
-						<tbody> <tr><td>機率</td><td>機率</td><td>專題</td><td>計組</td><td></td></tr> </tbody>
-						<tbody> <tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>開</td></tr> </tbody>
-						<tbody> <tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>心</td></tr> </tbody>
-						<tbody> <tr><td>EXCEL</td><td>財管</td><td></td><td>PYTHON</td><td>放</td></tr> </tbody>
-						<tbody> <tr><td>EXCEL</td><td>財管</td><td>APP</td><td>PYTHON</td><td>假</td></tr ></tbody>
-						<tbody>	<tr><td></td><td>不動產</td><td>APP</td><td>APP</td><td></td></tr> </tbody>
-						<tbody> <tr><td>體育</td><td>不動產</td><td>線代</td><td>APP</td><td></td></tr></tbody>
-						<tbody> <tr><td>體育</td><td></td><td>線代</td><td></td><td></td></tr></tbody>
-						<tfoot> <tr><td>七堂</td><td>七堂</td><td>七堂</td><td>八堂</td><td>零堂</td></tr></tfoot>
-					</table>
-				</div>
+				
 				<div class="column">
 					<h3>自介</h3>
 					<p>慢熟，熟的人可以從天聊到地，不熟則是會尷尬癌發作</p>
@@ -95,15 +87,34 @@
 				</div>
 				<div class="column">
 					<h3>學歷</h3>
-					<ul>
-						<h4>畢業於</h4>
-						<li>薇閣國中</li>
-						<li>中正高中</li>
-						<h4>現就讀</h4>
-						<li>淡江大學</li>
-					</ul>
+					<dl class="word">
+						<dt>畢業於</dt>
+						<dd>薇閣國中</dd>
+						<dd>中正高中</dd>
+						<dt>現就讀</dt>
+						<dd>淡江大學</dd>
+                    </dl>
+                </div>
+                <div class="column">
+					<h3>課表</h3>
+					<table border="5">
+						<thead> <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th></tr> </thead>
+                        <tbody> 
+                            <tr><td></td><td></td><td></td><td>計組</td><td></td></tr> 
+                            <tr><td>機率</td><td>機率</td><td>專題</td><td>計組</td><td></td></tr>
+						    <tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>開</td></tr>
+					    	<tr><td>機率</td><td>計組</td><td>專題</td><td>線代</td><td>心</td></tr>
+					    	<tr><td>EXCEL</td><td>財管</td><td></td><td>PYTHON</td><td>放</td></tr>
+					    	<tr><td>EXCEL</td><td>財管</td><td>APP</td><td>PYTHON</td><td>假</td></tr>
+					    	<tr><td></td><td>不動產</td><td>APP</td><td>APP</td><td></td></tr>
+					    	<tr><td>體育</td><td>不動產</td><td>線代</td><td>APP</td><td></td></tr>
+					    	<tr><td>體育</td><td></td><td>線代</td><td></td><td></td></tr>
+                        </tbody>
+						<tfoot> <tr><td>七堂</td><td>七堂</td><td>七堂</td><td>八堂</td><td>零堂</td></tr></tfoot>
+					</table>
 				</div>
-				</div>
+                </div>
+                
 			</article>
 		</section>
 
