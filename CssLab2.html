@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>406410059_CssLab2</title>
+    <link rel="stylesheet" href="CssLab2.css">
+</head>
+<body>
+    <header>
+        <div class="name">鍾興臺CHUNG HSING-TAI</div>
+    </header>
+
+    <nav>
+        <a href="contact.html">聯絡</a>
+        <a href="class.html">指導學生</a>
+    </nav>
+
+    <section class="Tsection">
+        <div class="article-nav">
+            
+            <button id="default" onclick="displayContent('about')">關於</button>
+            <button onclick="displayContent('paper')">論文</button>
+            <button onclick="displayContent('research')">研究</button>
+            <button onclick="displayContent('achievement')">海外成就</button>
+        </div>
+        
+        <article>
+                <div id="about" class="content">
+                    <div>
+                        <h2>基本資料</h2>
+                    </div>
+                    <div>
+                        <table >
+                            <tbody><tr>
+                                <th>中文姓名</th>
+                                <td>鍾興臺</td>
+                            </tr>
+                            <tr>
+                                <th>英文姓名</th>
+                                <td>CHUNG HSING-TAI</td>
+                            </tr>
+                                <tr>
+                                    <th>校內Email</th>
+                                    <td>htc@mail.tku.edu.tw</td>
+                             </tr>
+                            <tr>
+                                <th>個人Email</th>
+                                <td>htc.tku@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th>校內分機</th>
+                                <td>2739</td>
+                            </tr>
+                            <tr>
+                                <th>校內辦公室</th>
+                                <td>E672</td>
+                            </tr>
+                            <tr>
+                                <th>個人照片</th>
+                                <td><img src="http://image.teacher.tku.edu.tw/ashx/GetLPhoto.ashx?fn=ACCB50B67CD6B8312DAF221470F212B5BA74E696EF726A842D76F89E7A49B4B8" ></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div id="paper" class="content">
+                    <li>A Dublin Core Based Personal Information Agent</li>
+                    <li>Design of an inference engine for reasoning with imprecise linguistic information</li>
+                    <li>E-conference : An efficient approach for holding a virtual conference</li>
+                    <li>LR/1, A Prolog-like System for Reasoning with Imprecise Linguistic Information</li>
+                    <li>A dublin core based personal information agent</li>
+                    <li>A KOI-based framework for knowledge management systems</li>
+                    <li>A personal information agent on the object Web</li>
+                    <li>Electronic mobile notebook -- An application for distance learning on the WWW</li>
+                </div>
+
+                <div id="research" class="content">
+                    <li>建構以培養高學習力及終身學習為主的教學課程管理系統研究</li>
+                    <li>建構具有知識管理及加速學習功能的教學支援平臺(2/2)</li>
+                    <li>一個符號近以推理系統形式化之研究與製作</li>
+                    <li>網際網路智慧型助理之研究</li>
+                    <li>智慧型助理在全球分散式物件網路上的研究</li>
+                    <li>全球分散式物件網路上的個人資訊助理</li>
+                    <li>網際網路上具有資訊助理功能的個人知識管理系統</li>
+                    <li>以全球資訊網路為平臺的專案知識管理系統</li>
+                    <li>建構具有知識管理及加速學習功能的教學支援平臺(1/2)</li>
+                </div>
+
+                <div id="achievement" class="content">
+                    <li>美國佛羅里達州立大學-電腦博士</li>
+                    <li>2015教育高階論壇海峽兩岸學術研討會：全球化教學觀點的轉化</li>
+                </div>
+            </article>
+    </section>
+
+    <script>
+        function displayContent(name){
+            var i, content;
+            content = document.getElementsByClassName("content");
+            for (i = 0; i < content.length; i++) {
+                content[i].style.display = "none";
+            }
+            document.getElementById(name).style.display = "block";
+        }
+        document.getElementById("default").click();
+    </script>
+
+</body>
+</html>

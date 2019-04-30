@@ -1,0 +1,46 @@
+body{
+    background-color: linen;
+    margin: 0;
+}
+
+h1{
+    margin:0;
+}
+
+.piece{
+    text-align:center;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+#left{
+    background-color: #BBBB00;
+    height:100%;
+    padding: 328.5px 0;
+}
+
+#right{
+    background-color: #BBBB00;
+    padding: 328.5px 0;
+}
+
+#content{
+    margin: 0;
+    padding: 196px 0;
+}
+
+@media(max-width: 480px){
+    #left{
+        display: none;
+    }
+    #right{
+        display:none;
+    }
+    #content{
+        padding: 196px 35%;
+    }
+    h1{
+        font-size: 28px;
+    }
+}
