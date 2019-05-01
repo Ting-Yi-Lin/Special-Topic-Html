@@ -72,13 +72,6 @@ article .content{
         background-color: darkcyan;
     }
 
-    .article-nav{
-        position: fixed;
-        top:588px;
-        width: 100%;
-        overflow: hidden;
-    }
-
     .article-nav button {
         float: left;
         width:20%;
