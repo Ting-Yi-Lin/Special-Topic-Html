@@ -66,6 +66,10 @@ article .content{
     margin: auto;
 }
 
+#SC{
+    text-align: center;   
+}
+
 @media(max-width: 480px){
     
     header{
