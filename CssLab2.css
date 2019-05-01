@@ -37,7 +37,6 @@ nav{
 }
 
 .article-nav{
-    background-color: magenta;
     position: relative;
     top: 0;
     width: 100%;
@@ -71,6 +70,13 @@ article .content{
     
     header{
         background-color: darkcyan;
+    }
+
+    .article-nav{
+        position: fixed;
+        top:588px;
+        width: 100%;
+        overflow: hidden;
     }
 
     .article-nav button {
