@@ -72,6 +72,14 @@ article .content{
     header{
         background-color: darkcyan;
     }
+
+    .article-nav button {
+        float: left;
+        width:20%;
+        height:50px;
+        font-size: 19px;
+    }
+
     .name{
         font-size:30px;
         position: relative;
